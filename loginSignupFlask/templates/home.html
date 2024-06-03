@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}"/>
+</head>
+<body>
+    <header class="header">
+        <h3 class="logo">Home</h3>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#" class="About">About</a>
+            <a href="#" class="Services">Services</a>
+        </nav>
+    </header>
+    <section class="homesection">
+        <div class="home-content">
+            <h1>User Signup and login</h1>
+            <h3>User Authentication</h3>
+
+            <P>
+                To begin using our services, you need to either sign up for a new account or sign in if you already have one. Signing up is a quick process where you'll provide some basic information such as your name, email address, and a secure password. Once you've completed the registration, you'll receive a confirmation email to verify your account. If you're already a registered user, simply sign in using your email address and password. This ensures that your personal data and preferences are securely accessed and allows 
+                you to seamlessly enjoy all the features and benefits we offer.
+            </P>
+            <div class="btn-boxes">
+                <a href="{{ url_for('login')}}">Login Page</a>
+                <a href="{{ url_for('register')}}">Register Page</a>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>

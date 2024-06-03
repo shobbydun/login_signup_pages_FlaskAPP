@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    height: 100%;
+    background-image: url(image1.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(167, 87, 87);
+    background-blend-mode: lighten;
+    padding: 5px;
+    border-radius: 3%;
+    border-color: brown;
+    border-style: inherit;
+}
+
+.button-box{
+    width: 220px;
+    margin: 10px auto;
+    border-color: chocolate;
+    position: relative;
+    background-color: bisque;
+    box-shadow: #aaf90b;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+.btnLink{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ed88aa, #7b7152);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.social-icons{
+    margin: 370px auto;
+    text-align: center;
+}
+
+.social-icons img{
+    width: 40px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.input-group{
+    top: 80px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 20px 0;
+    margin: 4px ;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ed88aa, #7b7152);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+span{
+    color: #010101;
+    font-size: 15px;
+    bottom: 27px;
+    position: absolute;
+}
+
+.check-box{
+    margin: 10px 10px 30px 0;
+}
+
+.homesection{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    max-width: 600px;
+    color: wheat;
+}
+
+.home-content h1{
+    line-height: 1.2;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: blueviolet;
+
+}
+
+.header{
+    top: 0;
+    padding: 20px;
+    background: brown;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    color: wheat;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: wheat;
+    text-decoration: none;
+}
+
+.home-content .btn-boxes{
+    width: 345px;
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.btn-boxes a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: #081b29;
+}
+
+.btn-boxes a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+}
+
+.btn-boxes a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    transition: .5s;
+    background: #7b7152b9;
+    height: 100%;
+    z-index: 1;
+}
+
+.btn-boxes a:hover::before{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+

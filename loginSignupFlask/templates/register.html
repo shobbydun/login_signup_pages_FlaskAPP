@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}"/>
+
+
+</head>
+<body class="whole">
+        <div class="hero">
+        <div class="form-box">
+            <form class="input-group" method="POST" action="">
+                <div class="input-field">{{ form.hidden_tag() }}</div>
+                <div class="input-field">{{ form.username }}</div>
+                <div class="input-field">{{ form.password }}</div>
+                <button type="submit" class="submit-btn">{{ form.submit }}</button>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+            </form>
+            <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="btnLink">
+                <a href=" {{ url_for('login') }}">Login</a>
+            </button>
+            <button type="button" class="btnLink">
+                <a href=" {{ url_for('home') }}">Home</a>
+            </button>
+           </div>
+           <div class="social-icons">
+            <a href="https://www.instagram.com/shobs_king1/"><img src="https://cdn-icons-png.flaticon.com/128/15707/15707749.png"></a>
+            <a href="https://twitter.com/?lang=en"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968830.png"></a>
+            <a href="https://github.com/shobbydun"><img src="https://cdn-icons-png.flaticon.com/128/3291/3291667.png"></a>
+           
+        </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

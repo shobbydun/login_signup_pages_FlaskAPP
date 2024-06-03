@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}"/>
+
+</head>
+<body>
+    <div class="hero">
+
+    <div class="home-content">
+
+    <h1>You are Logged in</h1>
+    <div class="btn-boxes">
+    <a href=" {{ url_for('logout') }}">Press Here to logout</a>
+</div>
+    </div>
+</div>
+</body>
+</html>
