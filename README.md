@@ -23,13 +23,13 @@ On the dashboard page,
 Click the logout link to end the session.
 
 
-![Screenshot (20)](https://github.com/shobbydun/login_signup_pages_FlaskAPP/assets/87327873/3b584f72-2a56-44d5-b5bb-a1e2ba26b1ef)
 
-![Screenshot (22)](https://github.com/shobbydun/login_signup_pages_FlaskAPP/assets/87327873/92fd0e8f-d9c9-483c-bb41-31e8c6c50e56)
 
-![Screenshot (23)](https://github.com/shobbydun/login_signup_pages_FlaskAPP/assets/87327873/b5551d36-02f1-47ab-952d-c6e75feda1ca)
+![Screenshot (20)](https://github.com/shobbydun/login_signup_pages_FlaskAPP/assets/87327873/513ef3cc-4bd5-4bda-94e4-8f5bb4ca53bf)
+![Screenshot (22)](https://github.com/shobbydun/login_signup_pages_FlaskAPP/assets/87327873/1d7fd481-261b-4241-8fb7-626006dfbcf3)
+![Screenshot (23)](https://github.com/shobbydun/login_signup_pages_FlaskAPP/assets/87327873/b55249cd-e7f2-4cf4-8b91-5cd48b1dcc3d)
+![Screenshot (24)](https://github.com/shobbydun/login_signup_pages_FlaskAPP/assets/87327873/059e0648-2186-4911-b0c4-63e7da59c31a)
 
-![Screenshot (24)](https://github.com/shobbydun/login_signup_pages_FlaskAPP/assets/87327873/70737af1-b8f8-499c-88f3-0317cbdd8bb6)
 
 
 
